@@ -38,7 +38,7 @@
 GoldTracker.Enable = 1
 
 # Gold Tracker 모듈 시작 시 표시할 메시지
-GoldTracker.StartupMessage = "Gold Tracker Module is active. Monitoring for suspicious gold activities."
+GoldTracker.StartupMessage = "|cff0070DD[Gold Tracker]|r Gold Tracker Module is active. Monitoring for suspicious gold activities."
 
 # 시작 메시지 표시 여부 (0 = 표시 안 함, 1 = 표시)
 GoldTracker.ShowStartupMessage = 1

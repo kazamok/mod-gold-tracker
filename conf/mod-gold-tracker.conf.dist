@@ -1,0 +1,12 @@
+#----------------------------------------------------------
+# Gold Tracker Module Settings
+#----------------------------------------------------------
+#
+# Enable Gold Tracker Module (0 = disabled, 1 = enabled)
+GoldTracker.Enable = 1
+
+# Message to display when Gold Tracker Module starts
+GoldTracker.StartupMessage = "|cff0070DD[Gold Tracker]|r Gold Tracker Module is active. Monitoring for suspicious gold activities."
+
+# Show startup message (0 = disabled, 1 = enabled)
+GoldTracker.ShowStartupMessage = 1

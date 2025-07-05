@@ -3,5 +3,10 @@ set(MODULE_SRCS
     src/mod-gold-tracker.cpp
 )
 
-# Add module to the build
-add_azerothcore_module(${MODULE_NAME} ${MODULE_SRCS})
+AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/mod-gold-tracker.cpp")
+
+# 설정 파일 설치
+install(FILES
+    conf/mod-gold-tracker.conf.dist
+    DESTINATION "${CMAKE_INSTALL_PREFIX}/conf"
+)

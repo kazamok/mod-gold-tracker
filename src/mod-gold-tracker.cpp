@@ -98,7 +98,7 @@ private:
     {
         // 설정 파일 경로 (설치 경로의 conf 폴더에 복사될 것을 가정)
         // 이제 .conf 파일은 사용하지 않고 .conf.dist 파일만 사용합니다.
-        std::string configFilePath = "./conf/mod-gold-tracker.conf.dist";
+        std::string configFilePath = "./configs/modules/mod-gold-tracker.conf.dist";
 
         std::ifstream configFile;
 

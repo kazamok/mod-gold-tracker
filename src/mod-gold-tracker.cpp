@@ -1,3 +1,7 @@
+
+/*
+mod-gold-tracker.cpp */
+
 #include "ScriptMgr.h" // 스크립트 관리자 헤더 파일 포함
 #include "Player.h"    // 플레이어 클래스 헤더 파일 포함
 #include "Chat.h"      // 채팅 관련 헤더 파일 포함

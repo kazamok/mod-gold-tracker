@@ -102,7 +102,7 @@ private:
     {
         // 설정 파일 경로 (설치 경로의 conf 폴더에 복사될 것을 가정)
         // 이제 .conf 파일은 사용하지 않고 .conf.dist 파일만 사용합니다.
-        std::string configFilePath = "./configs/modules/mod-gold-tracker.conf.dist";
+        std::string configFilePath = "./configs/modules/mod-gold-tracker.conf";
 
         std::ifstream configFile;
 
@@ -282,3 +282,4 @@ void Addmod_gold_trackerScripts()
     // 플레이어 스크립트 인스턴스를 생성하여 등록합니다。
     new mod_gold_tracker_player();
 }
+
